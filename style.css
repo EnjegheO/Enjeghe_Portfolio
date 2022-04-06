@@ -1,0 +1,210 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* General styling */
+body{
+    font-family: 'Quintessential', cursive;
+    font-size: 16px;
+}
+
+i{
+    color: #ffffff;
+}
+
+h2{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover{
+    color: #0000ff;
+    background-color: #f1f1f1;
+}
+
+
+input:hover, button:hover, textarea:hover{
+    background-color: #aeabab;
+}
+
+#header a:hover{
+    color: #0000ff;
+    background-color: #4c0c5c;
+    opacity: 0.6;
+}
+
+.link a:hover{
+    color: #0000ff;
+    background-color: #4c0c5c;
+    opacity: 0.6;
+}
+
+/* Header styles*/ 
+#header{
+    background-color: #4c0c47;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+nav a{
+    color: #ffffff;
+    padding: 20px;
+    word-spacing: 5px;
+}
+
+
+.hero, #footer{
+    background-color: #4c0c5c;
+}
+
+/* Hero section styles */
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+.hero-image{
+    padding: 15px;
+}
+
+
+.hero-text p {
+    color: #ffffff;
+}
+
+.hero-text .link{
+    display: flex;
+    justify-content: center;
+    padding: 10px 5px;
+}
+
+/* Styling of social media icons */
+.hero-text .link a{
+    display: inline-block;
+    padding: 5px 20px;
+}
+
+/* Styling of hero image */
+.hero-image img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+/* Styling of about section */
+.about{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Styling of skill cards section */
+.skill-cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 0;
+}
+
+p.card{
+    background-color: #f1f1f1;
+    font-weight: bold;
+    font-size: 20px;
+    width: 20%;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+/* Styling of project section */
+.project-grid{
+    display: grid;
+    grid-template-columns: 60% 60%;
+    grid-template-rows: 50% 50%;
+    justify-content: space-around;
+    margin: 20px 10px;
+}
+
+.grid-item{
+    padding: 20px;
+}
+
+/* Styling of button that directs to the top */
+.top{
+    width: 100px;
+    display: block;
+    margin: 10px auto;
+    
+}
+
+.top a:hover{
+    background-color: transparent;
+    color: #ffffff;
+}
+
+/* Footer styles */
+#footer{
+    color: #ffffff;
+    padding: 10px 0;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin: 0 auto;
+    
+}
+
+/* Styling of form components */
+input, textarea, button{
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-family: 'Quintessential', cursive;
+
+}
+
+/* Styles input placeholder */
+::placeholder{
+    font-family: 'Quintessential', cursive;
+}
+
+#footer > p{
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 768px){
+    /* Increases width of card */
+    p.card{
+        width: 30%;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    /* Increases width of form */
+    form{
+        width: 60%;
+    }
+}

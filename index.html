@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Page creation</title>
+    <!--Google fonts link-->
+    <link href="https://fonts.googleapis.com/css2?family=Quintessential&display=swap" rel="stylesheet">
+    <!--Bootstrap icons link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header id="header">
+        <!--Navigation bar-->
+        <nav>
+            <a href="#">Enjeghe </a>
+            <a href="#who">Who </a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+
+        </nav>
+    </header>
+
+    <main>
+        <!--Hero section-->
+        <section class="hero">
+            <div class="hero-image">
+                <img src="sharon.jpg" alt="Enjeghe Onukak">
+            </div>
+            <div class="hero-text">
+                <p>Hello, I'm Enjeghe Onukak. A Frontend Developer</p>
+                <div class="link">
+                    <a href="https://web.facebook.com/enjeghe.onukak/" target="_blank"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com/sharion_sindy/" target="_blank"><i class="bi bi-instagram"></i></a>
+                    <a href="https://twitter.com/ssindy55" target="_blank"><i class="bi bi-twitter"></i></a>
+                </div>
+                
+            </div>
+        </section>
+
+        <!--About section-->
+        <section class="about" id="who">
+            <h2>Who</h2>
+            <p>I am a fourth year Chemical Engineering student in the University of Lagos. I have an interest in frontend development and am looking to build a career in tech. I am curious, well-organized, and an excellent team-player. </p>
+        </section>
+
+        <!--Skills section-->
+        <section class="about" id="skills">
+            <h2>Skills</h2>
+            <p> I have intermediate knowledge of HTML5 and CSS3 and basic knowledge of JavaScript ES6. </p>
+            <div class="skill-cards">
+                <p class="card">HTML</p>
+                <p class="card">CSS</p>
+                <p class="card">Javascript</p>
+            </div>
+        </section>
+
+        <!--Projects section-->
+        <section class="about" id="projects">
+            <h2>Projects</h2>
+            <p>These projects were created using HTML and CSS. Project 1 is a profile card component. Project 2 is a single price grid component. Project 3 is a simple responsive page and Project 4 is a simple grid layout. Links to the projects are given below.</p>
+            <div class="project-grid">
+                <p class="grid-item"><a href="https://profile-card-git-master-enjegheo.vercel.app/" target="_blank">Project 1</a></p>
+                <p class="grid-item"><a href="https://single-price-grid-enjegheo.vercel.app/" target="_blank">Project 2</a></p>
+                <p class="grid-item"><a href="/Enjeghe_CSS Assignment 3/media.html" target="_blank">Project 3</a></p>
+                <p class="grid-item"><a href="/Enjeghe_CSS Assignment 3/grid.html" target="_blank">Project 4</a></p>
+            </div>
+        </section>
+        <button class="top"><a href="#">Go to top</a></button>
+    </main>
+
+    <footer id="footer">
+        <!--Contact form-->
+        <h2>Contact me</h2>
+            <form action="">
+                <input type="text" name="fullName" id="fullName" placeholder="Enter Fullname">
+                <input type="email" name="email" id="email" placeholder="Enter Email">
+                <textarea name="message" id="message" cols="50" rows="2"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        
+        <p>Crafted with <i class="bi bi-heart"></i> by Enjeghe Onukak </p>
+    </footer>
+    
+</body>
+</html>
