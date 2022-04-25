@@ -53,12 +53,12 @@ input:hover, button:hover, textarea:hover{
     background-color: #4c0c47;
     padding: 20px;
     text-transform: uppercase;
+    overflow: hidden;
 }
 
 nav{
     display: flex;
     justify-content: center;
-    overflow: hidden;
 }
 nav a{
     color: #ffffff;
@@ -200,8 +200,8 @@ input, textarea, button{
 @media screen and (max-width: 768px){
     /* Increases width of card */
     p.card{
-        width: 40%;
-        padding: 5px;
+        width: 60%;
+        padding: 10px;
         margin: 5px;
     }
 
